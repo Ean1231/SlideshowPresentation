@@ -1,0 +1,135 @@
+
+.container {
+   position: absolute;
+    left: 25%;
+    
+}
+
+.header {
+    display:flex;
+    
+}
+
+h2{
+    padding-top: 5%;
+    padding-left: 4%;
+}
+.first-slider{
+   
+  margin-top:3%;
+  text-transform: uppercase;
+
+ 
+}
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 30%);
+}
+
+i{
+    font-size:40px ;
+}
+
+#work-experince{
+   
+    position: absolute;
+    left: 10%;
+    
+}
+
+
+
+
+.small-details{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: block;
+}
+
+.line{
+    border-left: 2px solid aqua;
+    margin-left:6px;
+    display:block;
+    height:400px;
+}
+.section{
+    background-color: darkgrey;
+    text-shadow: 1px 1px 2px #000000;
+    background: darkgrey;
+    background: linear-gradient(top, darkgrey, silver);
+    background: -ms-linear-gradient(top, darkgrey, silver);
+    background: -webkit-linear-gradient(top, darkgrey, silver);
+    background: -o-linear-gradient(top, darkgrey, silver);
+    background: -ms-linear-gradient(top, darkgrey, silvertop, white, silver);
+    border: 30px solid grey;
+}
+.about{
+    text-align:left; 
+    line-height: 45px;
+    margin-top: 50px;
+    padding: 0px 0px 0px 50px;
+}
+.image{
+    width: 280px; 
+    float: left; 
+    height: 300px; 
+    border-radius: 5000px; 
+    padding-top: 20px; 
+    margin-bottom: 350px; 
+    padding-left: 10px; 
+    margin-right: 25px; 
+    margin-top: 1px;
+    margin-bottom: 5px;
+    padding: 0px 20px 30px 0px;
+}
+.pabout{
+    font-size: 25px; 
+    margin-left: 20px; 
+    margin: 15px; 
+    text-align: center;
+}
+.experience{
+    text-align: center; 
+    color: black;
+}
+.experiencee{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#grid{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    left: 50px;
+    bottom: 20px;
+    border: 1px solid black;
+}
+.skills{
+    text-align: left; 
+    font-size: 25px; 
+    margin: 10px;
+}
+.progress{
+    width: 35%; 
+    height: 10px; 
+    background-color: grey; 
+    padding: -5px 10px 0px 0px;
+    margin: -2px;
+}
+.progre{
+    width: 80%; 
+    height: 10px; 
+    background-color: darkslategray;
+
+}
+

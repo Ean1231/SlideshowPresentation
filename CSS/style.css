@@ -1,0 +1,62 @@
+
+.container {
+   position: absolute;
+    left: 25%;
+}
+
+.header {
+    display:flex;
+    
+}
+
+h2{
+    padding-top: 5%;
+    padding-left: 4%;
+}
+.first-slider{
+   
+  margin-top:3%;
+  text-transform: uppercase;
+
+ 
+}
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 30%);
+}
+
+i{
+    font-size:40px ;
+}
+
+#work-experince{
+   
+    position: absolute;
+    left: 10%;
+    
+}
+
+
+
+
+.small-details{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: block;
+}
+
+.line{
+    border-left: 2px solid aqua;
+    margin-left:6px;
+    display:block;
+    height:400px;
+}
